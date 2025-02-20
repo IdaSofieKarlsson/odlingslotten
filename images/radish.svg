@@ -1,0 +1,57 @@
+<svg height="400" width="200" xmlns="http://www.w3.org/2000/svg">
+    <line x1="50" y1="50" x2="50" y2="25" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="50" y1="50" x2="47" y2="25" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="50" y1="50" x2="44" y2="25" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="50" y1="50" x2="53" y2="25" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="50" y1="50" x2="56" y2="25" style="stroke:#7aac35; stroke-width:2"/>
+    <circle r="25" cx="50" cy="75" style="fill:#fb5c80"/>
+    <polyline points="50,100 40,125 51,100" style="fill:none; stroke:#ecdfc6; stroke-width:2"/>
+            
+    <line x1="150" y1="100" x2="150" y2="75" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="150" y1="100" x2="147" y2="75" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="150" y1="100" x2="144" y2="75" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="150" y1="100" x2="153" y2="75" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="150" y1="100" x2="156" y2="75" style="stroke:#7aac35; stroke-width:2"/>
+    <circle r="25" cx="150" cy="125" style="fill:#fbb35b"/>
+    <polyline points="150,150 155,175 151,150" style="fill:none; stroke:#ecdfc6; stroke-width:2"/>
+            
+    <line x1="75" y1="150" x2="75" y2="125" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="75" y1="150" x2="72" y2="125" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="75" y1="150" x2="69" y2="125" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="75" y1="150" x2="78" y2="125" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="75" y1="150" x2="81" y2="125" style="stroke:#7aac35; stroke-width:2"/>
+    <circle r="25" cx="75" cy="175" style="fill:#db0a10"/>
+    <polyline points="75,200 80,220 76,200" style="fill:none; stroke:#ecdfc6; stroke-width:2"/>
+            
+    <line x1="150" y1="225" x2="150" y2="200" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="150" y1="225" x2="153" y2="200" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="150" y1="225" x2="156" y2="200" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="150" y1="225" x2="147" y2="200" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="150" y1="225" x2="144" y2="200" style="stroke:#7aac35; stroke-width:2"/>
+    <circle r="25" cx="150" cy="250" style="fill:#e3e0d3"/>
+    <polyline points="149,275 150,300 151,275" style="fill:none; stroke:#ecdfc6; stroke-width:2"/>
+            
+    <line x1="75" y1="250" x2="75" y2="225" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="75" y1="250" x2="72" y2="225" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="75" y1="250" x2="69" y2="225" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="75" y1="250" x2="78" y2="225" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="75" y1="250" x2="81" y2="225" style="stroke:#7aac35; stroke-width:2"/>
+    <circle r="25" cx="75" cy="275" style="fill:#9c329a"/>
+    <polyline points="75,300 70,325 76,300" style="fill:none; stroke:#ecdfc6; stroke-width:2"/>
+            
+    <line x1="125" y1="300" x2="125" y2="275" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="125" y1="300" x2="122" y2="275" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="125" y1="300" x2="119" y2="275" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="125" y1="300" x2="128" y2="275" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="125" y1="300" x2="131" y2="275" style="stroke:#7aac35; stroke-width:2"/>
+    <circle r="25" cx="125" cy="325" style="fill:#fbb7ce"/>
+    <polyline points="125,350 115,375 126,350" style="fill:none; stroke:#ecdfc6; stroke-width:2"/>
+            
+    <line x1="50" y1="325" x2="50" y2="300" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="50" y1="325" x2="53" y2="300" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="50" y1="325" x2="56" y2="300" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="50" y1="325" x2="47" y2="300" style="stroke:#7aac35; stroke-width:2"/>
+    <line x1="50" y1="325" x2="44" y2="300" style="stroke:#7aac35; stroke-width:2"/>
+    <circle r="25" cx="50" cy="350" style="fill:#ac151f"/>
+    <polyline points="50,375 45,389 49,375" style="fill:none; stroke:#ecdfc6; stroke-width:2"/>
+</svg>

@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Min Odlingslott</title>
     <!--länka default css-->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon-palsternacka.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon-palsternacka.ico" type="image/x-icon">
 </head>
 <body>
     <header id="home">
         <div class="logo">
-            <h3 class="logo-text">Idas Odling</h3>
+            <img class="logo-img" src="images/langa-vita-smooth-palsternacka-organiska-farska-fron.jpg" alt="Palsternacka" width="50px" height="50px">
+            <h3 class="logo-text">Ida-Sofies Odling</h3>
         </div>
         <nav>
-            <ul>
+            <ul class="nav-list">
                 <li><a href="#home">Hem</a></li>
                 <li><a href="#intro">Introduktion</a></li>
                 <li><a href="#facts">Grönsaks-fakta</a></li>
@@ -25,36 +33,118 @@
     </header>
     <section id="intro" class="intro">
         <h1>Min Odlingslott</h1>
-        <p>Än så länge så har inte mycket hänt här... </p>
-        <img src="images/Furet 16-17, 20241128.jpg" alt="Min odlingslott innan start" width="600px" height="500px">
+        <div class="intro-text-n-img">
+            <div class="text-intro">
+                <p>Odling spelar en viktig roll för både beredskap och självförsörjning. Det stärker vår självständighet och gör oss mindre sårbara vid 
+                störningar i matförsörjningskedjan. Samtidigt skapar odling sociala nätverk där kunskap och erfarenheter delas, vilket är värdefullt 
+                i både vardag och kris. Att odla sin egen mat handlar inte bara om att ha tillgång till färska och näringsrika råvaror, utan är också 
+                en investering i vårt samhälles långsiktiga hållbarhet och motståndskraft mot kriser. Genom att lära oss hur vi kan odla effektivt, 
+                både individuellt och i samverkan med andra, minskar vi vår sårbarhet. Kunskapen om odling är en nyckel till att hantera eventuella 
+                störningar i matförsörjningskedjan och en resurs vi kan dela och förvalta inom våra gemenskaper.</p>
+                <p class="source-to-text-intro">Från <a href="https://svensktradgard.se/tradgardsrad/hallbar-tradgard/odla-egen-mat/"><span>Riksförbundet Svensk Trädgård</span></a></p>
+            </div>
+            <div class="img-intro">
+                <img src="images/Furet 16-17, 20241128.jpg" alt="Min odlingslott innan start" width="300px" height="250px">
+                <p class="text-img">Än så länge så har inte mycket hänt här... </p>
+            </div>
+        </div>
     </section>
     <section id="facts" class="vegetable-facts">
-        <h2>Grönsaks-fakta</h2>
-        <div class="vegetable-card">
-            <!--img är egna svg, enkla stiliserade grönsakssymboler. Länka img/svg på olika sätt för att uppvisa kunskapen. 
-            Ändra till smartaste sättet sen-->
-            <img src="" alt="">
-            <p>Massor av fakta om grönsaken</p>
-            <button>Anmäl köp-intresse</button>
+        <h2 class="h2-vegetable-facts">Grönsaks-fakta</h2>
+        <div class="container-vegetable-card">
+            <div class="vegetable-card">
+                <img src="images/redbeet.svg" alt="" width="100px" height="200px">
+                <div class="text-vegetable-card">
+                    <h3 class="vegetable-name">Rödbeta</h3>
+                    <p class="vegetable-latin-name">Beta vulgaris</p>
+                    <button><a href="#purchase">Anmäl köpintresse</a></button>  
+                </div>
+            </div>
+            <div class="vegetable-card">
+                <div class="container-carrot"></div>
+                <div class="text-vegetable-card">
+                    <h3 class="vegetable-name">Morot</h3>
+                    <p class="vegetable-latin-name">Daucus carota</p>
+                    <button><a href="#purchase">Anmäl köpintresse</a></button>  
+                </div>
+            </div>
+            <div class="vegetable-card">
+                <img src="images/parsip.svg" alt="" width="100px" height="200px">
+                <div class="text-vegetable-card">
+                    <h3 class="vegetable-name">Palsternacka</h3>
+                    <p class="vegetable-latin-name">Pastinaca sativa</p>
+                    <button><a href="#purchase">Anmäl köpintresse</a></button>  
+                </div>
+            </div>
+            <div class="vegetable-card">
+                <img src="images/radish.svg" alt="" width="100px" height="200px">
+                <div class="text-vegetable-card">
+                    <h3 class="vegetable-name">Rädisa</h3>
+                    <p class="vegetable-latin-name">Raphanus sativus</p>
+                    <button><a href="#purchase">Anmäl köpintresse</a></button>  
+                </div>
+            </div>
         </div>
     </section>
     <section id="purchase" class="purchase-info">
         <h2>Köp-information</h2>
         <p>Än så länge finns inte grönsaker, men du kan anmäla intresse!</p>
-        <a href="pages/no-form-yet.html">Anmäl intresse</a>
-        <!--btn will later lead to form that actually collects user data-->
-        <button>Anmäl köpintresse</button> 
+        <div class="container-form-purchase">
+            <form class="form" action="">
+                <label for="full-name">Förnamn och Efternamn: </label>
+                <input type="text" placeholder="Ditt namn" name="full-name" required minlength="3">
+
+                <label for="e-mail">Din e-post: </label>
+                <input type="email" placeholder="Din e-postadress" name="e-mail" required>
+                
+                <label for="vegetable">Välj vilken eller vilka grönsaker du är intresser av. <br>Håll Ctrl intryckt för att välja flera alternativ. </label>
+                <select name="vegetable" id="vegetable" multiple>
+                    <option value="rodbeta">Rödbeta</option>
+                    <option value="morot">Morot</option>
+                    <option value="palsternacka">Palsternacka</option>
+                    <option value="radisa">Rädisa</option>
+                </select>
+
+                <label for="delivery">Välj leverans-sätt: </label>
+                <select name="delivery" id="delivery" required>
+                    <option value="pick-up-home">Hämta hos mig i Påarp, Helsingborg</option>
+                    <option value="postnord">Jag skickar med Postnord, fraktkostnad tillkommer</option>
+                    <option value="harvest">Du får själv välja ut och skörda på plats</option>
+                </select>
+                <button class="submit-btn" type="submit"><a href="pages/no-form-yet.html">Anmäl köpintresse</a></button>
+            </form>
+        </div>
     </section>
     <section id="vernissage" class="vernissage">
         <h2>Vernissage</h2>
         <p>När odlingslotten är betydligt mer bearbetat så kommer jag att hålla en vernissage. Vill du ha en inbjudan?</p>
-        <a href="pages/no-form-yet.html">Anmäl intresse</a>
-        <!--btn will later lead to form that actually collects user data-->
-        <button>Intresse-anmälan Vernissage</button> 
+        <div class="container-form-vernissage">
+            <form class="form" action="">
+                <label for="full-name">Förnamn och Efternamn: </label>
+                <input type="text" placeholder="Ditt namn" name="full-name" required minlength="3">
+
+                <label for="e-mail">Din e-post: </label>
+                <input type="email" placeholder="Din e-postadress" name="e-mail" required>
+                
+                <label for="visit">Ange varför du vill ha en inbjudan. <br>Håll Ctrl intryckt för att välja flera alternativ. </label>
+                <select name="visit" id="visit" multiple>
+                    <option value="arbets-insats">För att beundra din arbets-insats</option>
+                    <option value="studier">För att studera och lära</option>
+                    <option value="stjala">För att stjäla grönsaker</option>
+                    <option value="no-way-out">För att vi är släkt/vänner och det vore ohyfsat att tacka nej</option>
+                </select>
+                <button class="submit-btn" type="submit"><a href="pages/no-form-yet.html">Anmäl intresse</a></button>
+            </form>
+        </div>
     </section>
-    
     <footer id="contact">
         <h4>Kontakt-information</h4>
+        <ul>
+            <li>Email: ida.sofie.karlsson@gmail.com</li>
+            <li><a href="https://www.linkedin.com/in/idasofiekarlsson/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/yllegarn/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com/idasofie.karlsson" target="_blank">Facebook</a></li>
+        </ul>
     </footer>
 </body>
 </html>

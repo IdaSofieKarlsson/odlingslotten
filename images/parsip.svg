@@ -1,0 +1,9 @@
+        <svg height="400" width="200" xmlns="http://www.w3.org/2000/svg">
+            <line x1="100" y1="75" x2="50" y2="25" style="stroke:#58914b; stroke-width:10"/>
+            <line x1="100" y1="75" x2="75" y2="25" style="stroke:#58914b; stroke-width:10"/>
+            <line x1="100" y1="75" x2="100" y2="25" style="stroke:#58914b; stroke-width:10"/>
+            <line x1="100" y1="75" x2="125" y2="25" style="stroke:#58914b; stroke-width:10"/>
+            <line x1="100" y1="75" x2="150" y2="25" style="stroke:#58914b; stroke-width:10"/>
+            <circle r="50" cx="100" cy="125" style="fill:#feedb7"/>
+            <polygon points="50,125 95,375 105,375 150,125" style="fill:#feedb7" />
+        </svg>

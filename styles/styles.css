@@ -1,3 +1,235 @@
 body {
-    background-color: aquamarine;
+    background-color: #273F49;
+}
+
+/*styles for page no-form-yet at the end of this sheet*/
+
+/*styles for index*/
+
+/*färger, från https://paletton.com/#uid=1330u0km0kM4nvTg0qFqFg0J085 
+#002611 mörkast
+#0D4B2A näst mörkast
+#488866 näst ljusast
+#B0D8C3 ljusast
+#28784D bas?*/
+
+/*fonts
+font-family: "Nunito", serif;       vanlig text
+font-family: "Akaya Kanadaka", serif;   för loggan*/
+
+h1 {        /*rubrik intro*/
+    font-family: "Nunito", serif; 
+    color: #002611;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+h2 {        /*alla andra rubriker */
+    font-family: "Nunito", serif; 
+    color: #002611;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h3 {        /*grönsaksnamn*/
+    font-family: "Nunito", serif; 
+    color: #002611;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h4 {        /*footer*/
+    font-family: "Nunito", serif; 
+    color: #002611;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+p {
+    font-family: "Nunito", serif; 
+    color: #002611;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+header {
+    max-width: 1100px;
+    width: 100%;
+    max-height: 100px;
+    height: 100%;
+    margin: auto;
+    background-color: #C1E4F1;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo-img {
+    margin: 25px;
+}
+.logo-text { 
+    font-family: "Akaya Kanadaka", serif; 
+    font-size: 20px;
+    margin-left: 25px;
+}
+/*.nav {
+    display: flex;
+    align-items: center;
+}*/
+.nav-list {
+    display: flex;
+    align-content: center;
+}
+
+.intro {
+    max-width: 1100px;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #B0D8C3;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.intro-text-n-img {
+    max-width: 1100px;
+    width: 100%;
+    max-height: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.text-intro {
+    max-width: 600px;
+    width: 100%;
+    max-height: 400px;
+    height: 100%;
+    text-align: justify;
+}
+.img-intro {
+    max-width: 300px;
+    width: 100%;
+    max-height: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.text-img .source-to-text-intro {
+    font-style: italic;
+    font-size: 12px;
+}
+.vegetable-facts {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    width: 100%;
+    max-height: 300px;
+    height: 100%;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #B0D8C3;
+}
+
+.h2-vegetable-facts {
+    justify-self: center;
+    /*margin: auto;*/
+
+}
+
+.container-vegetable-card {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    width: 100%;
+    max-height: 250px;
+    height: 100%;
+    background-color: #B0D8C3;
+}
+.vegetable-card {
+    display: flex;
+    justify-content: space-around;
+    max-width: 200px;
+    width: 100%;
+    max-height: 250px;
+    height: 100%;
+    /*margin: auto;
+    margin-top: 5px;*/
+    background-color: #B0D8C3;
+}
+.text-vegetable-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 75px;
+    width: 100%;
+    min-height: 200px;
+    height: 100%;
+    background-color: #B0D8C3;
+}
+.container-carrot {
+    width: 100px;
+    height: 200px;
+    background-image: url(../images/carrot.svg);
+    background-size: cover;
+}
+
+.purchase-info {
+    max-width: 1100px;
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #B0D8C3;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.vernissage {
+    max-width: 1100px;
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #B0D8C3;
+}
+
+footer {
+    max-width: 1100px;
+    width: 100%;
+    min-height: 100px;
+    height: 100%;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #C1E4F1;
+    display: flex;
+}
+
+/*styles for page no-form-yet */
+.no-form-yet {
+    max-width: 1100px;
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #B0D8C3;
+}
+/*just testing SVGs, will delete later*/
+.testing-svg {
+    max-width: 1100px;
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #B0D8C3;
 }
