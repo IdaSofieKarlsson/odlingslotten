@@ -48,20 +48,8 @@ p {
     font-size: 14px;
     font-weight: normal;
 }
-a:link {
-
-}
-a:visited {
-
-}
 a:hover {
-
-}
-/*a link the moment it is clicked*/
-a:active {
-    color: #273F49;
-    font-size: 20px;
-    cursor: crosshair;
+    color: #488866;
 }
 /*all buttons same style*/
 button {
@@ -78,6 +66,12 @@ button a {
 }
 .submit-btn {
     align-self: center;
+}
+button:hover {
+    background-color: #feedb7;
+    border-color: #488866;
+    transition: all 3s linear;
+    transition-delay: 0.5s;
 }
 
 header {
@@ -199,13 +193,35 @@ li {
 .vegetable-latin-name {
     font-style: italic;
 }
-/*the other way to insert a svg-file: create a div in HTML and the svg as background img in css. 
-this means no alternate text to the image, which is not proper sementic regarding images*/
 .container-carrot {  
     width: 100px;
     height: 200px;
     background-image: url(../images/carrot.svg);
     background-size: cover;
+    animation: imgZoomRotate2 3s linear infinite;
+}
+.img-redbeet {
+    animation: imgZoomRotate1 3s linear infinite;
+}
+.img-redbeet:hover {
+    animation-play-state: paused;
+}
+.img-parsnip {
+    animation: imgZoomRotate3 3s linear infinite;
+}
+
+@keyframes imgZoomRotate1 {
+    from {transform: scale(1) rotate(0deg);}
+    to {transform: scale(1.5) rotate(90deg);}
+}
+@keyframes imgZoomRotate2 {
+    0% {transform: scale(1) rotate(-45deg);}
+    33% {transform: scale(1.5) rotate(45deg);}
+    100% {transform: scale(1) rotate(-45deg);}
+}
+@keyframes imgZoomRotate3 {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
 }
 
 .section-2-forms {  /*because I want the two tiny forms next to each other*/
